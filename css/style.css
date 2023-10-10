@@ -19,3 +19,11 @@ p {
   color: white;
   text-align: center;
 }
+
+table, th, td {
+  border: 25px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #FF69B4;
+}
