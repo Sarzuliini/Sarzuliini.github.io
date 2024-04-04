@@ -1,0 +1,91 @@
+/* värikoodit */
+
+/*CDB4DB  ~ Thistle liila
+FFC8DD  ~ Fairy Tale vaalenapinkki
+FFAFCC  ~ Carnation pink pinkki
+BDE0FE  ~ Uranian Blue
+A2D2FF	~ Light Sky Blue
+CEC4B6 = Dun 
+240524 = Dark purple 
+FDC4EE = Lavender pink*/
+
+
+
+
+
+/* tämä on taustakuva */
+body{
+background-color: white;
+	
+}
+
+/*shorthand       background: #ffffff url("img_tree.png") no-repeat right top;*/
+
+
+/* Pääotsikon muokkaus */
+h1{
+  text-decoration: underline;
+color: black;
+text-align: center;
+
+}
+
+
+
+
+/* tietoa minusta kohdan muokkaus */
+h3 {
+  font-family:  'Courier New', monospace;
+  text-decoration: underline;
+color: black;
+
+  
+}
+
+
+/* lista muokkaus */
+ul {
+list-style-type: none;
+
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid #FFAFCC;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #FFAFCC;
+  color: white;
+}
+
+
+/*Tervehdys*/
+div{
+font-family:  'Courier New', monospace;
+  text-decoration: underline;
+
+}
+
+
+/*Tervehdyksen Laatikko */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.image {
+  flex-basis: 40%
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
