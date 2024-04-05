@@ -16,7 +16,6 @@ FDC4EE = Lavender pink*/
 /* tämä on taustakuva */
 body{
 background-color: white;
-	
 }
 
 /*shorthand       background: #ffffff url("img_tree.png") no-repeat right top;*/
@@ -27,7 +26,6 @@ h1{
   text-decoration: underline;
 color: black;
 text-align: center;
-
 }
 
 
@@ -38,17 +36,14 @@ h3 {
   font-family:  'Courier New', monospace;
   text-decoration: underline;
 color: black;
-
-  
+ 
 }
 
 
 /* lista muokkaus */
 ul {
 list-style-type: none;
-
 }
-
 a:link, a:visited {
   background-color: white;
   color: black;
@@ -58,7 +53,6 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
 }
-
 a:hover, a:active {
   background-color: #FFAFCC;
   color: white;
@@ -73,7 +67,7 @@ font-family:  'Courier New', monospace;
 }
 
 
-/*Tervehdyksen Laatikko */
+/*Tervehdyksen muokkaus kun se on kuvan vieressä */
 .container {
   display: flex;
   align-items: center;
