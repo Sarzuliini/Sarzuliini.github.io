@@ -10,4 +10,4 @@ Olen opetellut koodaamaan vasta muutaman kuukauden ja tuntuu että tästä ei tu
 
 *osaan ehkä 1% kumpaakin* **hups**
 
-![HAy Dayn pupu](CV/Sarzuliini.github.io/imag/bunny.jpg)
+![HAy Dayn pupu](/CV/Sarzuliini.github.io/imag/bunny.jpg)
