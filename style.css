@@ -1,0 +1,78 @@
+
+/* About Section*/
+
+.index-about {
+    width: 100%;
+    padding: 60px 0;
+    background-color: #1A253A;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.index-about-img img {
+    width: 300px;
+    border-radius: 300px;
+}
+
+.index-about-text {
+    flex-basis: 455px;
+}
+
+.index-about-text p {
+    padding: 20px 0;
+}
+/*#c13584*/
+.index-about-text a {
+    font-size: 18px;
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    background-color: #c13584;
+    padding: 0 20px;
+    width: fit-content;
+}
+
+.index-about-text a:hover {
+    background-color: #ff0090;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tekstin muokkaus*/
+.index-about-text h2 {
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+
+.index-about-text p {
+    font-size: 14Px;
+    line-height: 30px;
+    color: #fff;
+    
+}
