@@ -1,6 +1,6 @@
 
 /* About Section*/
-
+/* tämä tekee laatikon nettisivulle*/
 .index-about {
     width: 100%;
     padding: 60px 0;
@@ -10,7 +10,7 @@
     align-items: center;
     column-gap: 60px;
 }
-
+/*tämä pyöristää kuvan*/
 .index-about-img img {
     width: 300px;
     border-radius: 300px;
@@ -23,7 +23,9 @@
 .index-about-text p {
     padding: 20px 0;
 }
-/*#c13584*/
+
+
+/*#c13584*/ /*tämä on nettisivun linkin tekstin muokkaus */
 .index-about-text a {
     font-size: 18px;
     display: block;
@@ -33,10 +35,12 @@
     padding: 0 20px;
     width: fit-content;
 }
-
+/* tämä muokkaa linkin päälle menevään palkkia*/
 .index-about-text a:hover {
     background-color: #ff0090;
 }
+
+/* tämä koko osa kertoo skil palkin muuttamisesta*/
 
 .index-about-skill {
     flex-basis: 350px;
@@ -49,12 +53,18 @@
     border: 4px solid #0b0F16;
 }
 .index-about-skill-bar-fill {
-    width: 100%;
-    height: 100%x;
-    border: 4px solid #0b0F16;
+
+    height: 100%;
+    background-color: #c13584;
 }
 
+.htmlcss {
+    width: 2%;
+    }
 
+.powerpoint {
+    width: 95%;
+    }
 
 
 
