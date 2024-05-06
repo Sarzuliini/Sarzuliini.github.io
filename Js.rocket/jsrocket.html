@@ -7,18 +7,46 @@
     <title>ROCKET!!!!!!!!!!!</title>
     <link rel="stylesheet" type="text/css"
     href="css/rocket.css">
+    <script type="text/javascript" src="js/rocket.js">
+
+    </script>
 </head>
 <body>
+
+
 <!-- tämä sisälle tulee kaikki tilanteet (VASEMALLE)-->
+<body class="body-state1">
 <div class="left">
     <div class="state1">
         <h1> JS Rocket Launch!</h1>
         <a href="#" class="button"
-        onclick="startCountDown ();">
-        Launch!!</a>
+        onclick="changeState(2);">Launch!!</a>
     </div>
-</div>
-<!-- Tähän se loppuuu!!!!!!-->
+<div class="state2">
+    <h1 id="countdown">10</h1>
+    <a href="#" class="button" 
+    onclick="changeState(1);">ABORTION!</a>
+    </div>
+<div class="state3">
+    <h1>Lift OFF!!</h1>
+    </div>
+<div class="state4">
+    <h1>Well done</h1>
+    <a href="#" 
+    class="button" 
+    onclick="changeState(1);">Do it again..</a>
+    </div>
+<div class="state5">
+    <h1>OH NOOEEUR</h1>
+    <a href="#" 
+    class="button" 
+    onclick="changeState(1);">Try again!</a>
+    </div>
+
+
+
+
+
 
 
 
@@ -26,6 +54,8 @@
 <div class="right">
     <div class="ground"></div>
     <div class="rocket"></div>
+    <div class="nervous"></div>
+    <div class="cant-wait"></div>
 </div>
 
 
