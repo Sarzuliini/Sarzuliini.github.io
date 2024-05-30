@@ -53,10 +53,6 @@ h1
 
 
 
-
-
-
-
 .name-hero{
     bottom:0;
     height: 550px;
@@ -72,7 +68,21 @@ h1
 .Logo  {
     position: relative;
     text-align:center;
+
 }
+
+a:visited {
+    color: black;
+}
+
+a:link {
+    color: black;
+}
+
+i:hover {
+    color: pink;
+}
+
 /*loppuu*/
 
 /* tämä on omakuva*/
@@ -88,6 +98,7 @@ h1
 }
 /* loppuu */
 
+/* tämä korjaa vasemanpuolen tekstejä */
 .name-hero h1
 {
     font-family:Open Sans, sans-serif;
@@ -121,7 +132,7 @@ h1
 
 
 
-/* Tämä on Koulutus kohdan cSS*/
+/* Tämä on oikean puolen kaikki teksti css*/
 .inner
 {
     margin:0 auto;
@@ -148,6 +159,11 @@ h1
 .inner section
 {
     margin:100px auto;
+}
+
+.inner li{
+    list-style: none;
+    color:rgba(0,0,0,.5);
 }
 /* se loppuu tähän*/
 
@@ -180,6 +196,12 @@ h1
 }
 
 .js {
+    width: 3%;
+    background-color: #ffb3c6;
+    height: 25px;
+}
+
+.bootstrap {
     width: 3%;
     background-color: #ffb3c6;
     height: 25px;
