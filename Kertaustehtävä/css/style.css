@@ -1,5 +1,6 @@
 body {
     font-family: "IBM Plex Mono", monospace;
+
 }
 
 h1, h2, .skills-list {
@@ -8,4 +9,8 @@ h1, h2, .skills-list {
 
 img {
     max-width: 100%;
+}
+
+nav {
+    background-color: #fccfef;
 }
