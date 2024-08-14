@@ -1,6 +1,11 @@
 body {
     font-family: "IBM Plex Mono", monospace;
+}
 
+
+body, ul {
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2, .skills-list {
@@ -13,4 +18,27 @@ img {
 
 nav {
     background-color: #fccfef;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+nav ul {
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+header {
+    top: 110px;
+    position: relative;
 }
