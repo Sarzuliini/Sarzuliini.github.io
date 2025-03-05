@@ -1,0 +1,103 @@
+
+/* About Section*/
+/* tämä tekee laatikon nettisivulle*/
+.index-about {
+    width: 100%;
+    padding: 60px 0;
+    background-color: #1A253A;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+}
+/*tämä pyöristää kuvan*/
+.index-about-img img {
+    width: 300px;
+    border-radius: 300px;
+}
+
+.index-about-text {
+    flex-basis: 455px;
+}
+
+.index-about-text p {
+    padding: 20px 0;
+}
+
+
+/*#c13584*/ /*tämä on nettisivun linkin tekstin muokkaus */
+.index-about-text a {
+    font-size: 18px;
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    background-color: #c13584;
+    padding: 0 20px;
+    width: fit-content;
+}
+/* tämä muokkaa linkin päälle menevään palkkia*/
+.index-about-text a:hover {
+    background-color: #ff0090;
+}
+
+/* tämä koko osa kertoo skil palkin muuttamisesta*/
+
+.index-about-skill {
+    flex-basis: 350px;
+
+}
+
+.index-about-skill-bar {
+    width: 100% - 8px;
+    height: 20px;
+    border: 4px solid #0b0F16;
+}
+.index-about-skill-bar-fill {
+
+    height: 100%;
+    background-color: #c13584;
+}
+
+.htmlcss {
+    width: 2%;
+    }
+
+.powerpoint {
+    width: 95%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tekstin muokkaus*/
+.index-about-text h2 {
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+
+.index-about-text p {
+    font-size: 14Px;
+    line-height: 30px;
+    color: #fff;
+    
+}
